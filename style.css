@@ -1,0 +1,139 @@
+body {
+  background-color: #2e2b2b;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333232;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(61, 27, 27, 0.1);
+}
+
+.navbar img {
+  padding: 5px;
+  float: left;
+  width: 75px;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 20px;
+  color: #f80000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: rgb(253, 253, 253);
+  background: #cf0e0e;
+}
+
+.main {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.A2 {
+  background-color: rgb(26, 24, 24);
+  padding: 17px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+.A2 p {
+  padding-top: 10px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.char{
+  padding: 20px;
+  color: #f80000;
+
+}
+
+.hom{
+  padding: 20px;
+  color: #f80000;
+  text-size-adjust: 10px;
+
+}
+
+.navbar input{
+  float: right;
+  font-size: 20px;
+  padding: 1px;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+.aveng img{
+  height: 200px;
+  width: 250px;
+}
+
+.post img{
+  height: 400px;
+  padding: 10px;
+}
+
+
+button {
+  background-color: #cf0e0e;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #351acf;
+}
+
+form {
+  background-color: #292525;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,textarea {
+  width: 30%;
+  margin: 0 auto; 
+  background-color: #dfdfdf;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  
+}
+
+form input[type="submit"] {
+  background-color: #cf0e0e;
+  color: #ffffff;
+  cursor: pointer;
+  
+}
+
+form input[type="submit"]:hover {
+  background-color: #351acf;
+}
+
+.Series a{
+  color: antiquewhite;
+  text-decoration: none;
+}
